@@ -1,0 +1,151 @@
+/* body{
+    background-color: rgb(68, 129, 184);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size:350%;
+    text-align:center;
+
+}
+button{
+        background-color: rgb(197, 216, 235);
+}
+input{
+    width:15%;
+}
+fieldset{
+    text-align: center;
+}
+form button{
+    cursor: pointer;
+    transition: all 0.3s ease;
+} */
+
+*{
+    margin:0;
+    padding: 6px 5px 4px 4px;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(68, 129, 184);
+    font-family: 'Courier New', Courier, monospace;
+    color:#FFD652;
+    min-width: 100vh;
+
+}
+header{
+    font-size: 1.5rem;
+
+}
+header , form{
+    min-height:20vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+form input, form button{
+    padding: .5rem;
+    font-size: 2rem;
+    background:aliceblue;
+}
+form button{
+    color: #7773D5;
+    background: #D8A70A;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+form button:hover{
+    background: rgb(145, 149, 150);
+    color:aliceblue;
+}
+legend{
+    font-size: 1.5rem;
+    font-weight:525;
+}
+h1{
+    font-size: 3rem;
+    display:flex;
+    justify-content: center;
+}
+.toDoContainer{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.toDoList{
+    list-style:none;
+    min-width: 30%;
+
+}
+.toDo{
+    margin:0.5rem;
+    background: aliceblue;
+    color: black;
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.toDo li{
+    flex:1;
+}
+.trashBtn , .completeBtn{
+    background: #574945;
+    color:white;
+    padding: .5rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.toDoItem{
+    padding: 0 rem 0.5rem;
+}
+
+.faTrash , .faComplete{
+    pointer-events: none;
+}
+
+.complete{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity:0;
+}
+
+/* select{
+    -webkit-appearance: none;
+    -moz-appearance:none ;
+    appearance: none;
+    outline: none;
+    border:none;
+    padding: 1rem;
+}
+.select{
+    margin:1rem;
+    position: relative;
+    overflow: hidden;
+}
+select{
+    width: 10rem;
+    cursor: pointer;
+    color:#D8A70A;
+}
+.select:: after{
+    content: "\25BC";
+    position: absolute;
+    top:0;
+    right:0;
+    pointer-events: none;
+    padding: 0.5rem;
+    transition: all 0.3s ease;
+}
+.select:hover::after{
+    background:white;
+    color: #D8A70A;
+} */
